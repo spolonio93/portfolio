@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "nombre": "Sergio Polonio Vázquez",
+    "rol": "Junior Webentwickler",
+    "stack": ["React", "Symfony", "TailwindCSS", "Javascript", "Java", "Python", "Git", "HTML", "KI-Integration"],
+    "github": "https://github.com/spolonio93",
+    "linkedin": "https://www.linkedin.com/in/sergio-polonio-vázquez-2849b5183/"
+  },
+  "buttons": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "experience": "Berufserfahrung",
+    "education": "Ausbildung",
+    "extras": "Sprachen & Zertifikate",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "title": "Über mich",
+    "sections": [
+      {
+        "titulo": "Profil",
+        "contenido": "Ich bin eine vielseitige Person mit Erfahrung im Hotelmanagement und der Veranstaltungskoordination und konzentriere mich derzeit auf die Webentwicklung."
+      },
+      {
+        "titulo": "Technische Ausbildung",
+        "contenido": "PHP, MySQL, PostgreSQL, Java, Python, JavaScript, React, Symfony, TailwindCSS."
+      },
+      {
+        "titulo": "Managementfähigkeiten",
+        "contenido": "Projektmanagement, Teamleitung, Kundenbetreuung, Teamarbeit mit Jira, GitLab und GitHub."
+      },
+      {
+        "titulo": "Sprachen",
+        "contenido": "Spanisch und Katalanisch (Muttersprache), Englisch und Deutsch (Mittelstufe B1)."
+      },
+      {
+        "titulo": "Motivation",
+        "contenido": "Ich bin leidenschaftlich daran interessiert zu lernen und mich weiterzuentwickeln, mit dem Ziel, mein Wissen über Software und KI einzusetzen, um echten Mehrwert zu schaffen."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "list": [
+      "Online-Tanzplattform (React, Firebase, TailwindCSS)",
+      "Backup-Management-System (UrBackup + REST API)",
+      "Entwickler-Portfolio (React + Vite)"
+    ]
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "list": [
+      "React, JavaScript, TypeScript",
+      "Symfony, PHP",
+      "TailwindCSS, HTML, CSS",
+      "Python und Automatisierungsskripte",
+      "Datenbanken: MySQL, PostgreSQL",
+      "Versionskontrolle mit Git und GitHub",
+      "Agile Methoden (Scrum, Kanban)",
+      "Jira, GitLab, VS Code",
+      "KI-Integration in Projekten",
+      "REST API-Entwicklung",
+      "Erstellung von responsiven Benutzeroberflächen",
+      "Teamführung",
+      "Betriebsmanagement",
+      "Kundenservice",
+      "Problemlösungskompetenz",
+      "Anpassungsfähigkeit und schnelles Lernen"
+    ]
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "list": [
+      {
+        "empresa": "Soterguard",
+        "cargo": "Junior Softwareentwickler",
+        "fecha": "Feb. 2025 - Mai 2025",
+        "ubicacion": "El Masnou, Katalonien",
+        "descripcion": [
+          "Entwicklung von Funktionen und APIs mit Symfony (PHP).",
+          "Erstellung von Benutzeroberflächen mit React, TypeScript, JavaScript, HTML, CSS und Tailwind.",
+          "Automatisierung von Prozessen und Entwicklung von Python-Skripten.",
+          "Integration von KI-Tools für Assistenten und Inhaltsgenerierung.",
+          "Arbeiten mit Git, Jira, VS Code und agilen Methoden (Scrum/Kanban)."
+        ],
+        "logo": "src\\assets\\logosoter.png"
+      },
+      {
+        "empresa": "Barcelona Cable Landing Station",
+        "cargo": "Junior Entwickler",
+        "fecha": "Apr. 2024 - Mai 2024",
+        "descripcion": [
+          "Entwicklung eines Sicherheitssystems in PHP.",
+          "Datenbankmanagement mit MySQL und PostgreSQL.",
+          "Aufgabenverwaltung mit Jira und GitLab."
+        ],
+        "logo": "src\\assets\\cls.jpeg"
+      },
+      {
+        "empresa": "Emergia",
+        "cargo": "Teamleiter",
+        "fecha": "Jun. 2022 - März 2024",
+        "descripcion": [
+          "Koordination eines Kundendienstteams.",
+          "Lösung von Problemen und Prozessoptimierung.",
+          "Kommunikation mit Abteilungen und KPI-Berichterstattung."
+        ],
+        "logo": "src\\assets\\emergialogo.png"
+      }
+    ]
+  },
+  "education": {
+    "title": "Ausbildung",
+    "list": [
+      {
+        "titulo": "CFGS – Entwicklung von plattformübergreifenden Anwendungen",
+        "institucion": "Institut Puig Castellar",
+        "fecha": "2025",
+        "logo": "src\\assets\\puiglogo.jpg",
+        "detalles": [
+          "Programmierung in Java, PHP, Python",
+          "Datenbanken (MySQL, PostgreSQL)",
+          "Plattformübergreifende Entwicklung",
+          "Versionskontrolle mit Git und GitHub"
+        ]
+      },
+      {
+        "titulo": "Berufsausbildung – Hotelfachmann",
+        "institucion": "BBS Hermann Beims Magdeburg",
+        "fecha": "2019",
+        "logo": "src\\assets\\bbs.png",
+        "detalles": [
+          "Ganzheitliches Hotelmanagement",
+          "Kundenbetreuung und Eventorganisation",
+          "Praktische Ausbildung in Deutschland"
+        ]
+      },
+      {
+        "titulo": "CFGS – Reiseleitung und touristische Assistenz",
+        "institucion": "INS Schule für Gastgewerbe und Tourismus Barcelona",
+        "fecha": "2016",
+        "logo": "src\\assets\\ehtb.jpg",
+        "detalles": [
+          "Gruppenmanagement und Kundenbetreuung",
+          "Organisation von Reiserouten und Veranstaltungen",
+          "Mehrsprachige Kommunikation"
+        ]
+      }
+    ]
+  },
+  "extras": {
+    "title": "Sprachen & Zertifikate",
+    "languages": [
+      { "idioma": "Spanisch", "nivel": "Muttersprache" },
+      { "idioma": "Katalanisch", "nivel": "Muttersprache" },
+      { "idioma": "Englisch", "nivel": "Mittelstufe (B1)" },
+      { "idioma": "Deutsch", "nivel": "Mittelstufe (B1)" }
+    ],
+    "certifications": [
+      {
+        "titulo": "Einführung in die Cybersicherheit (25h)",
+        "institucion": "ADAMS Formación",
+        "fecha": "Jul. 2023",
+        "logo": "src\\assets\\adamslogo.jpg"
+      },
+      {
+        "titulo": "IFCM002PO Cloud Computing (30h)",
+        "institucion": "ADAMS Formación",
+        "fecha": "Jul. 2023",
+        "logo": "src\\assets\\adamslogo.jpg"
+      },
+      {
+        "titulo": "Master in JavaScript: JS, jQuery, Angular, NodeJS",
+        "institucion": "Udemy",
+        "fecha": "Jun. 2024",
+        "logo": "src\\assets\\udemylogo.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "nombre": "Sergio Polonio Vázquez",
+    "rol": "Junior Web Developer",
+    "stack": ["React", "Symfony", "TailwindCSS", "Javascript", "Java", "Python", "Git", "HTML", "AI Integration"],
+    "github": "https://github.com/spolonio93",
+    "linkedin": "https://www.linkedin.com/in/sergio-polonio-vázquez-2849b5183/"
+  },
+  "buttons": {
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "extras": "Languages & Certifications",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "sections": [
+      {
+        "titulo": "Profile",
+        "contenido": "Versatile professional with experience in hotel management and event coordination, currently focused on web development."
+      },
+      {
+        "titulo": "Technical Training",
+        "contenido": "PHP, MySQL, PostgreSQL, Java, Python, JavaScript, React, Symfony, TailwindCSS."
+      },
+      {
+        "titulo": "Management Skills",
+        "contenido": "Project management, team leadership, customer service, collaboration with Jira, GitLab and GitHub."
+      },
+      {
+        "titulo": "Languages",
+        "contenido": "Spanish and Catalan (native), English and German (intermediate B1)."
+      },
+      {
+        "titulo": "Motivation",
+        "contenido": "Passionate about learning and improving, eager to apply my knowledge in software and AI to provide real value."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      "Online dance platform (React, Firebase, TailwindCSS)",
+      "Backup management system (UrBackup + REST API)",
+      "Developer portfolio (React + Vite)"
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "list": [
+      "React, JavaScript, TypeScript",
+      "Symfony, PHP",
+      "TailwindCSS, HTML, CSS",
+      "Python and automation scripts",
+      "Databases: MySQL, PostgreSQL",
+      "Version control with Git and GitHub",
+      "Agile methodologies (Scrum, Kanban)",
+      "Jira, GitLab, VS Code",
+      "AI integration in projects",
+      "REST API development",
+      "Responsive interface design",
+      "Team leadership",
+      "Operations management",
+      "Customer service",
+      "Problem solving",
+      "Adaptability and fast learning"
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "list": [
+      {
+        "empresa": "Soterguard",
+        "cargo": "Junior Software Developer",
+        "fecha": "Feb 2025 – May 2025",
+        "ubicacion": "El Masnou, Catalonia",
+        "descripcion": [
+          "Developed functionalities and APIs with Symfony (PHP).",
+          "Created interfaces using React, TypeScript, JavaScript, HTML, CSS, and Tailwind.",
+          "Automated processes and built scripts with Python.",
+          "Integrated AI tools for assistants and content generation.",
+          "Worked with Git, Jira, VS Code, and Agile methodologies (Scrum/Kanban)."
+        ],
+        "logo": "src\\assets\\logosoter.png"
+      },
+      {
+        "empresa": "Barcelona Cable Landing Station",
+        "cargo": "Junior Developer",
+        "fecha": "Apr 2024 – May 2024",
+        "descripcion": [
+          "Developed a security system in PHP.",
+          "Managed MySQL and PostgreSQL databases.",
+          "Handled task management using Jira and GitLab."
+        ],
+        "logo": "src\\assets\\cls.jpeg"
+      },
+      {
+        "empresa": "Emergia",
+        "cargo": "Team Leader",
+        "fecha": "Jun 2022 – Mar 2024",
+        "descripcion": [
+          "Coordinated customer service team.",
+          "Resolved incidents and improved internal processes.",
+          "Communicated with departments and reported KPIs."
+        ],
+        "logo": "src\\assets\\emergialogo.png"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "list": [
+      {
+        "titulo": "CFGS - Multiplatform Application Development",
+        "institucion": "Institut Puig Castellar",
+        "fecha": "2025",
+        "logo": "src\\assets\\puiglogo.jpg",
+        "detalles": [
+          "Programming in Java, PHP, Python",
+          "Database management (MySQL, PostgreSQL)",
+          "Multiplatform development",
+          "Version control with Git and GitHub"
+        ]
+      },
+      {
+        "titulo": "Ausbildung - Hotel Management",
+        "institucion": "BBS Hermann Beims Magdeburg",
+        "fecha": "2019",
+        "logo": "src\\assets\\bbs.png",
+        "detalles": [
+          "Comprehensive hotel operations management",
+          "Customer service and event coordination",
+          "Professional internships in Germany"
+        ]
+      },
+      {
+        "titulo": "CFGS - Tourist Guide, Information and Assistance",
+        "institucion": "INS Escuela de Hostelería y Turismo de Barcelona",
+        "fecha": "2016",
+        "logo": "src\\assets\\ehtb.jpg",
+        "detalles": [
+          "Group management and tourist assistance",
+          "Event and itinerary organization",
+          "Multilingual communication"
+        ]
+      }
+    ]
+  },
+  "extras": {
+    "title": "Languages & Certifications",
+    "languages": [
+      { "idioma": "Spanish", "nivel": "Native" },
+      { "idioma": "Catalan", "nivel": "Native" },
+      { "idioma": "English", "nivel": "Intermediate (B1)" },
+      { "idioma": "German", "nivel": "Intermediate (B1)" }
+    ],
+    "certifications": [
+      {
+        "titulo": "Introduction to Cybersecurity (25h)",
+        "institucion": "ADAMS Formación",
+        "fecha": "Jul 2023",
+        "logo": "src\\assets\\adamslogo.jpg"
+      },
+      {
+        "titulo": "IFCM002PO Cloud Computing (30h)",
+        "institucion": "ADAMS Formación",
+        "fecha": "Jul 2023",
+        "logo": "src\\assets\\adamslogo.jpg"
+      },
+      {
+        "titulo": "Master in JavaScript: JS, jQuery, Angular, NodeJS",
+        "institucion": "Udemy",
+        "fecha": "Jun 2024",
+        "logo": "src\\assets\\udemylogo.png"
+      }
+    ]
+  }
+}

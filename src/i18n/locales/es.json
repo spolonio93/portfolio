@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "nombre": "Sergio Polonio Vázquez",
+    "rol": "Desarrollador Web Junior",
+    "stack": ["React", "Symfony", "TailwindCSS", "Javascript", "Java", "Python", "Git", "HTML", "Integración de IA"],
+    "github": "https://github.com/spolonio93",
+    "linkedin": "https://www.linkedin.com/in/sergio-polonio-vázquez-2849b5183/"
+  },
+  "buttons": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "education": "Formación",
+    "extras": "Extras",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "sections": [
+      {
+        "titulo": "Perfil",
+        "contenido": "Soy una persona versátil con experiencia en gestión hotelera y coordinación de eventos, actualmente enfocada en el desarrollo web."
+      },
+      {
+        "titulo": "Formación técnica",
+        "contenido": "PHP, MySQL, PostgreSQL, Java, Python, JavaScript, React, Symfony, TailwindCSS."
+      },
+      {
+        "titulo": "Habilidades de gestión",
+        "contenido": "Gestión de proyectos, liderazgo de equipos, atención al cliente, trabajo en equipo con Jira, GitLab y GitHub."
+      },
+      {
+        "titulo": "Idiomas",
+        "contenido": "Español y catalán (nativos), inglés y alemán (intermedio B1)."
+      },
+      {
+        "titulo": "Motivación",
+        "contenido": "Apasionado por aprender y mejorar, con interés en aplicar mis conocimientos de software e IA para aportar valor real."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "list": [
+      "Plataforma de baile online (React, Firebase, TailwindCSS)",
+      "Sistema de gestión de backups (UrBackup + API REST)",
+      "Portfolio como desarrollador (React + Vite)"
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "list": [
+      "React, JavaScript, TypeScript",
+      "Symfony, PHP",
+      "TailwindCSS, HTML, CSS",
+      "Python y scripts de automatización",
+      "Bases de datos: MySQL, PostgreSQL",
+      "Control de versiones con Git y GitHub",
+      "Metodologías ágiles (Scrum, Kanban)",
+      "Jira, GitLab, VS Code",
+      "Integración de IA en proyectos",
+      "Desarrollo de APIs REST",
+      "Creación de interfaces responsive",
+      "Liderazgo de equipos",
+      "Gestión de operaciones",
+      "Atención al cliente",
+      "Resolución de problemas",
+      "Adaptabilidad y aprendizaje rápido"
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "list": [
+      {
+        "empresa": "Soterguard",
+        "cargo": "Junior Software Developer",
+        "fecha": "feb. 2025 - may. 2025",
+        "ubicacion": "El Masnou, Cataluña",
+        "descripcion": [
+          "Desarrollo de funcionalidades y APIs con Symfony (PHP).",
+          "Creación de interfaces con React, TypeScript, JavaScript, HTML, CSS y Tailwind.",
+          "Automatización de procesos y desarrollo de scripts con Python.",
+          "Integración de herramientas de IA para asistentes y generación de contenido.",
+          "Trabajo con Git, Jira, VS Code y metodologías ágiles (Scrum/Kanban)."
+        ],
+        "logo": "src\\assets\\logosoter.png"
+      },
+      {
+        "empresa": "Barcelona Cable Landing Station",
+        "cargo": "Junior Developer",
+        "fecha": "abr. 2024 - may. 2024",
+        "descripcion": [
+          "Desarrollo de un sistema de seguridad en PHP.",
+          "Gestión de base de datos MySQL y PostgreSQL.",
+          "Gestión de tareas con Jira y GitLab."
+        ],
+        "logo": "src\\assets\\cls.jpeg"
+      },
+      {
+        "empresa": "Emergia",
+        "cargo": "Team Leader",
+        "fecha": "jun. 2022 - mar. 2024",
+        "descripcion": [
+          "Coordinación de equipo de atención al cliente.",
+          "Resolución de incidencias y mejora de procesos.",
+          "Comunicación con departamentos y reporte de KPIs."
+        ],
+        "logo": "src\\assets\\emergialogo.png"
+      }
+    ]
+  },
+  "education": {
+    "title": "Formación",
+    "list": [
+      {
+        "titulo": "CFGS - Desenvolupament d'aplicacions multiplataforma",
+        "institucion": "Institut Puig Castellar",
+        "fecha": "2025",
+        "logo": "src\\assets\\puiglogo.jpg",
+        "detalles": [
+          "Programación en Java, PHP, Python",
+          "Bases de datos (MySQL, PostgreSQL)",
+          "Desarrollo multiplataforma",
+          "Control de versiones con Git y GitHub"
+        ]
+      },
+      {
+        "titulo": "Ausbildung - Hotelfachmann",
+        "institucion": "BBS Hermann Beims Magdeburg",
+        "fecha": "2019",
+        "logo": "src\\assets\\bbs.png",
+        "detalles": [
+          "Gestión hotelera integral",
+          "Atención al cliente y eventos",
+          "Prácticas profesionales en Alemania"
+        ]
+      },
+      {
+        "titulo": "CFGS - Guia, Informació i Assistències Turístiques",
+        "institucion": "INS Escuela de Hostelería y Turismo de Barcelona",
+        "fecha": "2016",
+        "logo": "src\\assets\\ehtb.jpg",
+        "detalles": [
+          "Gestión de grupos y atención turística",
+          "Organización de itinerarios y eventos",
+          "Comunicación multilingüe"
+        ]
+      }
+    ]
+  },
+  "extras": {
+    "title": "Idiomas y Certificaciones",
+    "languages": [
+      { "idioma": "Español", "nivel": "Nativo" },
+      { "idioma": "Catalán", "nivel": "Nativo" },
+      { "idioma": "Inglés", "nivel": "Intermedio (B1)" },
+      { "idioma": "Alemán", "nivel": "Intermedio (B1)" }
+    ],
+    "certifications": [
+      {
+        "titulo": "Introducción a la Ciberseguridad (25h)",
+        "institucion": "ADAMS Formación",
+        "fecha": "jul. 2023",
+        "logo": "src\\assets\\adamslogo.jpg"
+      },
+      {
+        "titulo": "IFCM002PO Cloud Computing (30h)",
+        "institucion": "ADAMS Formación",
+        "fecha": "jul. 2023",
+        "logo": "src\\assets\\adamslogo.jpg"
+      },
+      {
+        "titulo": "Master en JavaScript: JS, jQuery, Angular, NodeJS",
+        "institucion": "Udemy",
+        "fecha": "jun. 2024",
+        "logo": "src\\assets\\udemylogo.png"
+      }
+    ]
+  }
+}
