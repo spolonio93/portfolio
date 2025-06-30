@@ -12,26 +12,46 @@ export default function Projects() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="w-full max-w-4xl"
+        className="w-full max-w-5xl"
       >
-        <h2 className="text-2xl md:text-3xl text-cyan-400 font-bold mb-8"># {t("projects.title")}</h2>
+        <h2 className="text-3xl text-cyan-400 font-bold mb-10"># {t("projects.title")}</h2>
 
-        <div className="grid gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {proyectos.map((proy, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: i * 0.1 }}
-              className="bg-black/60 border border-cyan-400 p-6 rounded-lg backdrop-blur-sm shadow-lg"
+              transition={{ duration: 0.7, delay: i * 0.1 }}
+              className="bg-black/60 border border-cyan-500 p-5 rounded-xl backdrop-blur-md shadow-lg flex flex-col items-center"
             >
-              <p className="text-green-300 font-semibold">{proy.nombre}</p>
-              <p className="text-yellow-200 text-sm">{proy.descripcion}</p>
-              {proy.tecnologias && (
-                <p className="text-cyan-400 text-sm mt-1">Tecnologías: {proy.tecnologias.join(", ")}</p>
+              {proy.logo && (
+                <img
+                  src={proy.logo}
+                  alt={`Logo ${proy.nombre}`}
+                  className="w-20 h-20 object-contain mb-4"
+                />
               )}
+
+              <h3 className="text-green-300 text-xl font-semibold mb-2">{proy.nombre}</h3>
+
+              <p className="text-yellow-200 text-sm mb-3 text-center">{proy.descripcion}</p>
+
+              {proy.tecnologias && (
+                <div className="text-cyan-300 text-sm mb-4">
+                  <strong>Tecnologías:</strong> {proy.tecnologias.join(", ")}
+                </div>
+              )}
+
               {proy.link && (
-                <a href={proy.link} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline text-sm">Ver proyecto</a>
+                <a
+                  href={proy.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-auto px-4 py-2 bg-cyan-500 text-black rounded hover:bg-cyan-400 transition"
+                >
+                  Ver proyecto
+                </a>
               )}
             </motion.div>
           ))}

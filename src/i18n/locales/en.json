@@ -43,9 +43,20 @@
   "projects": {
     "title": "Projects",
     "list": [
-      "Online dance platform (React, Firebase, TailwindCSS)",
-      "Backup management system (UrBackup + REST API)",
-      "Developer portfolio (React + Vite)"
+      {
+        "nombre": "¡Baila Conmigo!",
+        "descripcion": "Progressive platform for online and in-person dance classes.",
+        "tecnologias": ["React", "Firebase", "TailwindCSS"],
+        "url": "https://baila-conmigo.netlify.app/",
+        "logo": "src/assets/baila-logo.png"
+      },
+      {
+        "nombre": "Professional Portfolio",
+        "descripcion": "Personal website to showcase skills, experience, and projects.",
+        "tecnologias": ["React", "Vite", "TailwindCSS", "i18next"],
+        "url": "https://sergio-polonio-portafolio.netlify.app/",
+        "logo": "src/assets/perfil.png"
+      }
     ]
   },
   "skills": {
