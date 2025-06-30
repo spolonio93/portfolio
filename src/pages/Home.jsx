@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import i18n from "../i18n";
-import perfilImg from "../assets/perfil.png";
+import perfilImg from "/assets/perfil.png";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
@@ -11,9 +11,9 @@ import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Extras from "../components/Extras";
-import esFlag from '../assets/es.webp';
-import enFlag from '../assets/en.png';
-import deFlag from '../assets/de.png';
+import esFlag from '/assets/es.webp';
+import enFlag from '/assets/en.png';
+import deFlag from '/assets/de.png';
 
 export default function Home() {
   const { t } = useTranslation();

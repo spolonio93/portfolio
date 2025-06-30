@@ -48,14 +48,14 @@
         "descripcion": "Plataforma online de clases de baile con React y Firebase.",
         "tecnologias": ["React", "Firebase", "TailwindCSS"],
         "link": "https://baila-conmigo.netlify.app/",
-        "logo": "src/assets/baila-logo.png"
+        "logo": "/assets/baila-logo.png"
       },
       {
         "nombre": "Portafolio Profesional",
         "descripcion": "Mi sitio personal para mostrar proyectos y habilidades.",
         "tecnologias": ["React", "Vite", "TailwindCSS", "Framer Motion"],
         "link": "https://sergio-polonio-portafolio.netlify.app/",
-        "logo": "./src/assets/perfil.png"
+        "logo": "/assets/perfil.png"
       }
     ]
   },
@@ -95,7 +95,7 @@
           "Integración de herramientas de IA para asistentes y generación de contenido.",
           "Trabajo con Git, Jira, VS Code y metodologías ágiles (Scrum/Kanban)."
         ],
-        "logo": "src\\assets\\logosoter.png"
+        "logo": "/assets/logosoter.png"
       },
       {
         "empresa": "Barcelona Cable Landing Station",
@@ -106,7 +106,7 @@
           "Gestión de base de datos MySQL y PostgreSQL.",
           "Gestión de tareas con Jira y GitLab."
         ],
-        "logo": "src\\assets\\cls.jpeg"
+        "logo": "/assets/cls.jpeg"
       },
       {
         "empresa": "Emergia",
@@ -117,7 +117,7 @@
           "Resolución de incidencias y mejora de procesos.",
           "Comunicación con departamentos y reporte de KPIs."
         ],
-        "logo": "src\\assets\\emergialogo.png"
+        "logo": "/assets/emergialogo.png"
       }
     ]
   },
@@ -128,7 +128,7 @@
         "titulo": "CFGS - Desenvolupament d'aplicacions multiplataforma",
         "institucion": "Institut Puig Castellar",
         "fecha": "2025",
-        "logo": "src\\assets\\puiglogo.jpg",
+        "logo": "/assets/puiglogo.jpg",
         "detalles": [
           "Programación en Java, PHP, Python",
           "Bases de datos (MySQL, PostgreSQL)",
@@ -140,7 +140,7 @@
         "titulo": "Ausbildung - Hotelfachmann",
         "institucion": "BBS Hermann Beims Magdeburg",
         "fecha": "2019",
-        "logo": "src\\assets\\bbs.png",
+        "logo": "/assets/bbs.png",
         "detalles": [
           "Gestión hotelera integral",
           "Atención al cliente y eventos",
@@ -151,7 +151,7 @@
         "titulo": "CFGS - Guia, Informació i Assistències Turístiques",
         "institucion": "INS Escuela de Hostelería y Turismo de Barcelona",
         "fecha": "2016",
-        "logo": "src\\assets\\ehtb.jpg",
+        "logo": "/assets/ehtb.jpg",
         "detalles": [
           "Gestión de grupos y atención turística",
           "Organización de itinerarios y eventos",
@@ -173,19 +173,19 @@
         "titulo": "Introducción a la Ciberseguridad (25h)",
         "institucion": "ADAMS Formación",
         "fecha": "jul. 2023",
-        "logo": "src\\assets\\adamslogo.jpg"
+        "logo": "/assets/adamslogo.jpg"
       },
       {
         "titulo": "IFCM002PO Cloud Computing (30h)",
         "institucion": "ADAMS Formación",
         "fecha": "jul. 2023",
-        "logo": "src\\assets\\adamslogo.jpg"
+        "logo": "/assets/adamslogo.jpg"
       },
       {
         "titulo": "Master en JavaScript: JS, jQuery, Angular, NodeJS",
         "institucion": "Udemy",
         "fecha": "jun. 2024",
-        "logo": "src\\assets\\udemylogo.png"
+        "logo": "/assets/udemylogo.png"
       }
     ]
   }
