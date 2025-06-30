@@ -53,7 +53,7 @@
       {
         "nombre": "Portafolio Profesional",
         "descripcion": "Mi sitio personal para mostrar proyectos y habilidades.",
-        "tecnologias": ["React", "Vite", "Framer Motion"],
+        "tecnologias": ["React", "Vite", "TailwindCSS", "Framer Motion"],
         "link": "https://sergio-polonio-portafolio.netlify.app/",
         "logo": "src/assets/perfil.png"
       }
