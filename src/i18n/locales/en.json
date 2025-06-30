@@ -47,14 +47,14 @@
         "nombre": "¡Baila Conmigo!",
         "descripcion": "Progressive platform for online and in-person dance classes.",
         "tecnologias": ["React", "Firebase", "TailwindCSS"],
-        "url": "https://baila-conmigo.netlify.app/",
+        "link": "https://baila-conmigo.netlify.app/",
         "logo": "/assets/baila-logo.png"
       },
       {
         "nombre": "Professional Portfolio",
         "descripcion": "Personal website to showcase skills, experience, and projects.",
         "tecnologias": ["React", "Vite", "TailwindCSS", "i18next"],
-        "url": "https://sergio-polonio-portafolio.netlify.app/",
+        "link": "https://sergio-polonio-portafolio.netlify.app/",
         "logo": "/assets/perfil.png"
       }
     ]
